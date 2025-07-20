@@ -1,0 +1,131 @@
+/*Default Styles*/
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(188, 255, 188);
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0px;
+}
+
+h3 {
+    font-style: italic;
+    margin: 0px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+    padding: 10px;
+    width: 80%;
+    max-width: 1200px;
+    background-color: rgba(250, 250, 250, 0.85);
+    backdrop-filter: blur(4px);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+main article {
+    width: 100%;
+}
+
+main section h2 {
+    text-align: center;
+}
+
+main article h2 {
+    text-align: center;
+}
+
+main article p {
+    margin: 10px;
+}
+
+main article hr {
+    margin: 20px auto;
+    display: flex;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.15);
+}
+
+main article ul {
+    list-style: square;
+    padding-left: 20px;
+    margin: 5px;
+}
+
+main article ul li {
+    padding-left: 5px;
+}
+
+hr {
+    width: 60%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(0, 0, 0, 0.35);
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgba(252, 109, 109, 0.767);
+}
+
+/*Classes*/
+
+/*ID's*/
+#header-container {
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header-container #header-link {
+    text-decoration: none;
+    color: black;
+    padding: 0px;
+}
+
+#header-container nav {
+    display: flex;
+    justify-content: center;
+    display: inline;
+    margin-top: 10px;
+}
+
+#header-container nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+#header-container nav ul li {
+    margin: 0 15px;
+}
+
+#main-footer-spacer {
+    flex-grow: 1;
+}
